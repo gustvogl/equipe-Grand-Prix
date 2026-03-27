@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Tech Squad | Soluções Digitais de Elite</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar" data-aos="fade-down">
+    <div class="logo-container">
+        <img src="img/Design sem nome (1).png" alt="Star Tech Squad Logo" class="nav-logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#squad">O Squad</a></li>
+        <li><a href="#tech">Tech Stack</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato" class="btn-nav">Contato</a></li>
+    </ul>
+    <div class="menu-toggle" id="mobile-menu">
+        <i class="ph ph-list"></i>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-content" data-aos="fade-up">
+        <h1>Soluções Digitais de <span class="primary">Elite</span></h1>
+        <h3>Nós somos especializados em: <span class="auto-type"></span></h3>
+        <p>
+            Um squad multidisciplinar focado em transformar ideias complexas em interfaces modernas, responsivas e de alta performance. Unimos design intuitivo e código limpo para criar experiências web excepcionais.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projetos" class="btn primary">Ver Nossos Projetos</a>
+            <a href="#squad" class="btn secondary">Conhecer o Time</a>
+        </div>
+    </div>
+</header>
+
+<section id="squad" class="squad">
+    <div class="container">
+        <h2 data-aos="fade-up">O Nosso Squad</h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="100">
+            Quatro especialistas, uma visão: excelência digital. Conheça as mentes por trás das nossas soluções.
+        </p>
+        
+        <div class="squad-grid">
+
+            <div class="member-card" data-aos="flip-left">
+                <div class="member-photo-container">
+                    <img src="img/1.png" alt="Gustavo Luís Ferreira Silva" class="member-photo">
+                </div>
+                <h3>Gustavo Luís</h3>
+                <p class="member-role">Front-End Developer</p>
+                <p class="member-desc">Especialista em criar interfaces intuitivas e responsivas com foco em UI/UX.</p>
+                
+                <div class="member-skills">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Figma</span>
+                </div>
+                
+                <div class="best-project">
+                    <small>MELHOR PROJETO INDIVIDUAL:</small>
+                    <p>Nintendo Pokemon Switch UI</p>
+                    <a href="https://gustvogl.github.io/pokemon_final/index.html" class="btn-sm" target="_blank">Ver Demo <i class="ph ph-arrow-square-out"></i></a>
+                </div>
+            </div>
+
+            <div class="member-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="member-photo-container">
+                    <img src="img/2.png" alt="Designer Placeholder" class="member-photo">
+                </div>
+                <h3>Valentina Goche</h3>
+                <p class="member-role">UI/UX Designer</p>
+                <p class="member-desc">Transforma fluxos complexos em experiências de usuário simples e elegantes.</p>
+                
+                <div class="member-skills">
+                    <span>Figma</span><span>HTML5</span><span>CSS</span><span>Prototipagem</span>
+                </div>
+                
+                <div class="best-project">
+                    <small>MELHOR PROJETO INDIVIDUAL:</small>
+                    <p>Redesign App Finanças</p>
+                    <a href="https://vggochi.github.io/Big-Bite-Club/" class="btn-sm" target="_blank">Ver Case <i class="ph ph-arrow-square-out"></i></a>
+                </div>
+            </div>
+
+            <div class="member-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="member-photo-container">
+                    <img src="img/3.png" alt="Back-End Placeholder" class="member-photo">
+                </div>
+                <h3>João Correia</h3>
+                <p class="member-role">Back-End Developer</p>
+                <p class="member-desc">Arquiteto de APIs robustas e bancos de dados otimizados para alta performance.</p>
+                
+                <div class="member-skills">
+                    <span>Node.js</span><span>SQL</span><span>Python</span><span>REST APIs</span>
+                </div>
+                
+                <div class="best-project">
+                    <small>MELHOR PROJETO INDIVIDUAL:</small>
+                    <p>API E-commerce</p>
+                    <a href="https://c0rrea-max.github.io/churrascaria/" class="btn-sm" target="_blank">Ver Código <i class="ph ph-arrow-square-out"></i></a>
+                </div>
+            </div>
+
+            <div class="member-card" data-aos="flip-left" data-aos-delay="300">
+                <div class="member-photo-container">
+                    <img src="img/4.png" alt="Full Stack Placeholder" class="member-photo">
+                </div>
+                <h3>Giovanna Santana</h3>
+                <p class="member-role">Full Stack Developer</p>
+                <p class="member-desc">Ponte entre design e lógica, garantindo integração perfeita de ponta a ponta.</p>
+                
+                <div class="member-skills">
+                    <span>React</span><span>Node.js</span><span>Git</span><span>JavaScript</span>
+                </div>
+                
+                <div class="best-project">
+                    <small>MELHOR PROJETO INDIVIDUAL:</small>
+                    <p>App de Gestão Squad</p>
+                    <a href="#" class="btn-sm" target="_blank">Ver Demo <i class="ph ph-arrow-square-out"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="tech" class="tech-stack">
+    <div class="container">
+        <h2 data-aos="fade-up">Nossa Tech Stack</h2>
+        <div class="tech-grid" data-aos="fade-up" data-aos-delay="100">
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><span>HTML5</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><span>CSS3</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><span>React</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><span>Node.js</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><span>Git</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><span>GitHub</span></div>
+            <div class="tech-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"><span>Figma</span></div>
+        </div>
+    </div>
+</section>
+
+<section id="projetos" class="group-projects">
+    <div class="container">
+        <h2 data-aos="fade-up">Projetos em Equipe</h2>
+        <div class="project-grid">
+
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-media">
+                    <img src="img/group-project-placeholder.png" alt="Plataforma StarTech S.A.">
+                    <div class="media-overlay">
+                        <a href="#" class="btn-icon"><i class="ph ph-eye"></i></a>
+                        <a href="#" class="btn-icon"><i class="ph ph-github-logo"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>AINDA NÃO TEM</h3>
+                    <p></p>
+                    <div class="project-tags"><span></span>  <span></span>  <span></span>  <span></span>  </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-media">
+                    <img src="img/ecommerce-project-placeholder.png" alt="E-commerce Alta Performance">
+                    <div class="media-overlay">
+                        <a href="#" class="btn-icon"><i class="ph ph-eye"></i></a>
+                        <a href="#" class="btn-icon"><i class="ph ph-github-logo"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>AINDA NÃO TEM</h3>
+                    <p></p>
+                    <div class="project-tags"><span></span>  <span></span>  <span></span>  <span></span> </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="contact">
+    <div class="container" data-aos="fade-up">
+        <h2>Fale com o Squad</h2>
+        <p>Pronto para elevar o nível do seu projeto digital? Entre em contato conosco.</p>
+        <div class="contact-methods">
+            <a href="https://wa.me/5515997962450" class="contact-btn"><i class="ph ph-whatsapp-logo"></i> WhatsApp Squad</a>
+            <a href="mailto:gustavo.l.silva37@aluno.senai.br" class="contact-btn secondary"><i class="ph ph-envelope"></i> E-mail Corporativo</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2026 Star Tech Squad. Todos os direitos reservados.</p>
+        <div class="socials">
+            <a href="#" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="#" target="_blank"><i class="ph ph-github-logo"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
